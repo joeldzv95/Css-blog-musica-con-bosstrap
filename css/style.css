@@ -1,0 +1,112 @@
+
+
+.row-principal{
+ 
+  margin: auto;
+  width: 1280px;
+}
+h1{
+  
+  font-weight: bold;
+}
+/*
+div{
+  border: 1px solid black;
+}
+*/
+span{
+  text-decoration: none;
+  color: black;
+  font-size: 14pt;
+}
+.encabezado{
+    background-color: cyan;
+    min-height: 50px;
+    border-radius: 0px !important;
+    margin-bottom: 0px;
+}
+.logo{
+  width: 15%;
+}
+.logoredes{
+  width: 30px;
+}
+.contenedor-redes{
+  margin-top: 2%;
+}
+nav{
+  padding: 2px;
+  height: 30px;
+  background-color: lightblue;
+  margin-bottom: 10px;
+}
+section{
+  
+  background: white;
+}
+.album{
+  width: 50%;
+}
+.logousu{
+  width: 40%;
+}
+.divusu{
+  margin-top:2%;
+}
+.boton{
+  float: right;
+  width: 100px ;
+}
+.formulario{
+  margin: 10px;
+}
+.logosearch{
+  width: 20px;
+  margin-top: 5px;
+}
+.buscar{
+  width: 90%;
+}
+.lista{
+  width: 90%;
+}
+
+
+@media (max-width:380px){
+  section{
+    margin-top: 20px;
+  }
+  .row-principal{
+ 
+    
+    width:380px;
+  }
+  h1{
+    font-size: 14pt;
+    font-weight: bold;
+  }
+  .buscar{
+    
+    width: 70%;
+    margin: 10px;
+  }
+  .logosearch{
+    float: left;
+  }
+  nav{
+    background-color:lightblue;
+    padding: 2px;
+    margin-bottom: 10px;
+    height: 100%;
+  }
+  .contenedor-redes{
+    margin-bottom:5px;
+  }
+  .logousu{
+    width: 50px;
+  }
+  .divusu{
+    padding:10px;
+  }
+  
+}
