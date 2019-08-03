@@ -6,7 +6,6 @@
   width: 1280px;
 }
 h1{
-  
   font-weight: bold;
 }
 /*
@@ -71,7 +70,18 @@ section{
   width: 90%;
 }
 
-
+@media(max-width:768px){
+  .row-principal{
+  width: 768px;
+  }
+  nav{
+    
+    padding: 2px;
+    height: 100%;
+    background-color: lightblue;
+    margin-bottom: 10px;
+  }
+}
 @media (max-width:380px){
   section{
     margin-top: 20px;
